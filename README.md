@@ -5,7 +5,7 @@
 購読URL:
 
 ```text
-https://wootan-hummas.github.io/nanj-adguard-filter/nanj-filter.txt
+https://wootan-hummas.github.io/hummas-adguard-filter/nanj-filter.txt
 ```
 
 ## 更新

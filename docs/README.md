@@ -3,7 +3,7 @@
 AdGuardのカスタムフィルター購読URLとして `nanj-filter.txt` を使う。
 
 ```text
-https://wootan-hummas.github.io/nanj-adguard-filter/nanj-filter.txt
+https://wootan-hummas.github.io/hummas-adguard-filter/nanj-filter.txt
 ```
 
 更新時は `data/nanj_filter_sources.json` を編集し、次のコマンドで生成する。
