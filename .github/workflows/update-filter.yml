@@ -1,0 +1,36 @@
+name: Update Hummas AdGuard filter
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 22 * * 0"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Build filter
+        run: python3 scripts/build_filter.py --verify --update-verification-metadata --write
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: automation/update-filter
+          branch-suffix: timestamp
+          delete-branch: true
+          title: "AdGuardフィルターを更新"
+          commit-message: "AdGuardフィルターを更新"
+          body: |
+            AdGuard用フィルターを再生成しました。
+
+            確認対象は `data/sources.json` を参照してください。

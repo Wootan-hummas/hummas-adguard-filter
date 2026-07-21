@@ -1,17 +1,17 @@
-# なんJ系AdGuardブロックフィルター
+# Hummas AdGuard Filter
 
-なんJアンテナ掲載元と手動追加サイトを対象にしたAdGuard用購読フィルター。
+個人用のAdGuard購読フィルター。
 
 購読URL:
 
 ```text
-https://wootan-hummas.github.io/hummas-adguard-filter/nanj-filter.txt
+https://wootan-hummas.github.io/hummas-adguard-filter/filter.txt
 ```
 
 ## 更新
 
 ```bash
-python3 scripts/build_nanj_filter.py --verify --update-verification-metadata --write
+python3 scripts/build_filter.py --verify --update-verification-metadata --write
 ```
 
-`data/nanj_filter_sources.json` を正本として、`docs/nanj-filter.txt` を生成する。
+`data/sources.json` を正本として、`docs/filter.txt` を生成する。

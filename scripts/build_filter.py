@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build and verify the AdGuard filter for Nanj-related sites."""
+"""Build and verify the Hummas AdGuard filter."""
 
 from __future__ import annotations
 
@@ -15,9 +15,9 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_DATA = ROOT / "data" / "nanj_filter_sources.json"
-DEFAULT_OUTPUT = ROOT / "docs" / "nanj-filter.txt"
-USER_AGENT = "Mozilla/5.0 (compatible; nanj-filter-check/1.0)"
+DEFAULT_DATA = ROOT / "data" / "sources.json"
+DEFAULT_OUTPUT = ROOT / "docs" / "filter.txt"
+USER_AGENT = "Mozilla/5.0 (compatible; hummas-adguard-filter/1.0)"
 
 
 def load_sources(path: Path) -> dict[str, Any]:
@@ -39,14 +39,14 @@ def adguard_rule(domain_or_path: str) -> str:
 def build_filter(config: dict[str, Any], generated_date: str) -> str:
     lines = [
         f"! Title: {config['title']}",
-        "! Description: AdGuard用のなんJ系サイトブロックフィルター",
+        f"! Description: {config.get('description', '')}",
         f"! Homepage: {config.get('homepage', '')}",
         f"! Source: {config.get('source_repository', '')}",
         "! Expires: 1 day",
         f"! Updated: {generated_date}",
         "!",
-        "! このファイルは data/nanj_filter_sources.json から生成されています。",
-        "! 直接編集せず scripts/build_nanj_filter.py を実行してください。",
+        "! このファイルは data/sources.json から生成されています。",
+        "! 直接編集せず scripts/build_filter.py を実行してください。",
         "",
         f"! {config['antenna']['name']}",
     ]

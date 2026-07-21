@@ -1,7 +1,7 @@
 {
-  "title": "なんJ系ブロックフィルター",
-  "description": "AdGuard用のなんJ系サイトブロックフィルター。なんJアンテナ掲載元と手動追加サイトを管理する。",
-  "homepage": "https://wootan-hummas.github.io/hummas-adguard-filter/nanj-filter.txt",
+  "title": "Hummas AdGuard Filter",
+  "description": "AdGuard用の個人ブロックフィルター。カテゴリ別に対象サイトを管理する。",
+  "homepage": "https://wootan-hummas.github.io/hummas-adguard-filter/filter.txt",
   "source_repository": "https://github.com/Wootan-hummas/hummas-adguard-filter",
   "antenna": {
     "name": "なんJアンテナ",
