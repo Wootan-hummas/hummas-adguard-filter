@@ -32,8 +32,8 @@ def today_jst() -> str:
 def adguard_rule(domain_or_path: str) -> str:
     value = domain_or_path.strip().removeprefix("http://").removeprefix("https://")
     if "/" in value:
-        return f"||{value.rstrip('/')}/*"
-    return f"||{value}^"
+        return f"||{value.rstrip('/')}/*$document"
+    return f"||{value}^$document"
 
 
 def build_filter(config: dict[str, Any], generated_date: str) -> str:
