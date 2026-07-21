@@ -1,0 +1,112 @@
+{
+  "title": "なんJ系ブロックフィルター",
+  "description": "AdGuard用のなんJ系サイトブロックフィルター。なんJアンテナ掲載元と手動追加サイトを管理する。",
+  "homepage": "https://wootan-hummas.github.io/nanj-adguard-filter/nanj-filter.txt",
+  "source_repository": "https://github.com/Wootan-hummas/nanj-adguard-filter",
+  "antenna": {
+    "name": "なんJアンテナ",
+    "homepage": "http://livejupiter2.net/",
+    "domains": [
+      "livejupiter2.net"
+    ],
+    "verify_pages": 10
+  },
+  "sources": [
+    {
+      "name": "なんじぇいスタジアム＠なんJまとめ",
+      "homepage": "http://blog.livedoor.jp/nanjstu/",
+      "domains": [
+        "blog.livedoor.jp/nanjstu"
+      ],
+      "antenna_label": "なんじぇいスタジアム",
+      "source_type": "antenna",
+      "enabled": true,
+      "last_verified_at": "2026-07-21",
+      "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
+    },
+    {
+      "name": "日刊やきう速報＠野球まとめ",
+      "homepage": "http://blog.livedoor.jp/yakiusoku/",
+      "domains": [
+        "blog.livedoor.jp/yakiusoku"
+      ],
+      "antenna_label": "日刊やきう速報",
+      "source_type": "antenna",
+      "enabled": true,
+      "last_verified_at": "2026-07-21",
+      "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
+    },
+    {
+      "name": "まとめロッテ！",
+      "homepage": "http://matomelotte.com/",
+      "domains": [
+        "matomelotte.com"
+      ],
+      "antenna_label": "まとめロッテ",
+      "source_type": "antenna",
+      "enabled": true,
+      "last_verified_at": "2026-07-21",
+      "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
+    },
+    {
+      "name": "MLB NEWS@なんJ",
+      "homepage": "http://blog.livedoor.jp/i6469/",
+      "domains": [
+        "blog.livedoor.jp/i6469"
+      ],
+      "antenna_label": "MLB NEWS",
+      "source_type": "antenna",
+      "enabled": true,
+      "last_verified_at": "2026-07-21",
+      "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
+    },
+    {
+      "name": "竜速",
+      "homepage": "http://blog.livedoor.jp/bbyakyu/",
+      "domains": [
+        "blog.livedoor.jp/bbyakyu"
+      ],
+      "antenna_label": "竜速",
+      "source_type": "antenna",
+      "enabled": true,
+      "last_verified_at": "2026-07-21",
+      "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
+    },
+    {
+      "name": "鷹速@ホークスまとめブログ",
+      "homepage": "http://blog.livedoor.jp/hawksmatome/",
+      "domains": [
+        "blog.livedoor.jp/hawksmatome"
+      ],
+      "antenna_label": "鷹速",
+      "source_type": "antenna",
+      "enabled": true,
+      "last_verified_at": "2026-07-21",
+      "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
+    },
+    {
+      "name": "ポリー速報＠日ハムまとめブログ",
+      "homepage": "http://blog.livedoor.jp/fightersmatome/",
+      "domains": [
+        "blog.livedoor.jp/fightersmatome"
+      ],
+      "antenna_label": "ポリー速報",
+      "source_type": "antenna",
+      "enabled": true,
+      "last_verified_at": "2026-07-21",
+      "last_verification_note": "サイト実体は確認。なんJアンテナ1-10ページでは今回未検出のため、前回掲載確認済みサイトとして継続"
+    },
+    {
+      "name": "なんJ PRIDE",
+      "homepage": "https://nanjpride.blog.jp/",
+      "domains": [
+        "nanjpride.blog.jp"
+      ],
+      "antenna_label": null,
+      "source_type": "manual",
+      "enabled": true,
+      "last_verified_at": "2026-07-21",
+      "last_verification_note": "手動追加対象。サイト実体を確認"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+! Title: なんJ系ブロックフィルター
+! Description: AdGuard用のなんJ系サイトブロックフィルター
+! Homepage: https://wootan-hummas.github.io/nanj-adguard-filter/nanj-filter.txt
+! Source: https://github.com/Wootan-hummas/nanj-adguard-filter
+! Expires: 1 day
+! Updated: 2026-07-21
+!
+! このファイルは data/nanj_filter_sources.json から生成されています。
+! 直接編集せず scripts/build_nanj_filter.py を実行してください。
+
+! なんJアンテナ
+||livejupiter2.net^
+
+! なんじぇいスタジアム＠なんJまとめ
+! verify: 2026-07-21 - なんJアンテナ1-10ページで掲載を確認
+||blog.livedoor.jp/nanjstu/*
+
+! 日刊やきう速報＠野球まとめ
+! verify: 2026-07-21 - なんJアンテナ1-10ページで掲載を確認
+||blog.livedoor.jp/yakiusoku/*
+
+! まとめロッテ！
+! verify: 2026-07-21 - なんJアンテナ1-10ページで掲載を確認
+||matomelotte.com^
+
+! MLB NEWS@なんJ
+! verify: 2026-07-21 - なんJアンテナ1-10ページで掲載を確認
+||blog.livedoor.jp/i6469/*
+
+! 竜速
+! verify: 2026-07-21 - なんJアンテナ1-10ページで掲載を確認
+||blog.livedoor.jp/bbyakyu/*
+
+! 鷹速@ホークスまとめブログ
+! verify: 2026-07-21 - なんJアンテナ1-10ページで掲載を確認
+||blog.livedoor.jp/hawksmatome/*
+
+! ポリー速報＠日ハムまとめブログ
+! verify: 2026-07-21 - サイト実体は確認。なんJアンテナ1-10ページでは今回未検出のため、前回掲載確認済みサイトとして継続
+||blog.livedoor.jp/fightersmatome/*
+
+! なんJ PRIDE
+! verify: 2026-07-21 - 手動追加対象。サイト実体を確認
+||nanjpride.blog.jp^
