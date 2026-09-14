@@ -3,7 +3,7 @@
 ! Homepage: https://wootan-hummas.github.io/hummas-adguard-filter/filter.txt
 ! Source: https://github.com/Wootan-hummas/hummas-adguard-filter
 ! Expires: 1 day
-! Updated: 2026-08-31
+! Updated: 2026-09-14
 !
 ! このファイルは data/sources.json から生成されています。
 ! 直接編集せず scripts/build_filter.py を実行してください。
@@ -12,33 +12,33 @@
 ||livejupiter2.net^$document
 
 ! なんじぇいスタジアム＠なんJまとめ
-! verify: 2026-08-31 - なんJアンテナ1-10ページで掲載を確認
+! verify: 2026-09-14 - なんJアンテナ1-10ページで掲載を確認
 ||blog.livedoor.jp/nanjstu/*$document
 
 ! 日刊やきう速報＠野球まとめ
-! verify: 2026-08-31 - なんJアンテナ1-10ページで掲載を確認
+! verify: 2026-09-14 - なんJアンテナ1-10ページで掲載を確認
 ||blog.livedoor.jp/yakiusoku/*$document
 
 ! まとめロッテ！
-! verify: 2026-08-31 - なんJアンテナ1-10ページで掲載を確認
+! verify: 2026-09-14 - なんJアンテナ1-10ページで掲載を確認
 ||matomelotte.com^$document
 
 ! MLB NEWS@なんJ
-! verify: 2026-08-31 - なんJアンテナ1-10ページで掲載を確認
+! verify: 2026-09-14 - なんJアンテナ1-10ページで掲載を確認
 ||blog.livedoor.jp/i6469/*$document
 
 ! 竜速
-! verify: 2026-08-31 - なんJアンテナ1-10ページで掲載を確認
+! verify: 2026-09-14 - なんJアンテナ1-10ページで掲載を確認
 ||blog.livedoor.jp/bbyakyu/*$document
 
 ! 鷹速@ホークスまとめブログ
-! verify: 2026-08-31 - なんJアンテナ1-10ページで掲載を確認
+! verify: 2026-09-14 - なんJアンテナ1-10ページで掲載を確認
 ||blog.livedoor.jp/hawksmatome/*$document
 
 ! ポリー速報＠日ハムまとめブログ
-! verify: 2026-08-31 - なんJアンテナ1-10ページで掲載を確認
+! verify: 2026-09-14 - サイト実体は確認。なんJアンテナ1-10ページでは今回未検出のため、前回掲載確認済みサイトとして継続
 ||blog.livedoor.jp/fightersmatome/*$document
 
 ! なんJ PRIDE
-! verify: 2026-08-31 - 手動追加対象。サイト実体を確認
+! verify: 2026-09-14 - 手動追加対象。サイト実体を確認
 ||nanjpride.blog.jp^$document
