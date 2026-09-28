@@ -21,7 +21,7 @@
       "antenna_label": "なんじぇいスタジアム",
       "source_type": "antenna",
       "enabled": true,
-      "last_verified_at": "2026-08-31",
+      "last_verified_at": "2026-09-28",
       "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
     },
     {
@@ -33,7 +33,7 @@
       "antenna_label": "日刊やきう速報",
       "source_type": "antenna",
       "enabled": true,
-      "last_verified_at": "2026-08-31",
+      "last_verified_at": "2026-09-28",
       "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
     },
     {
@@ -45,8 +45,8 @@
       "antenna_label": "まとめロッテ",
       "source_type": "antenna",
       "enabled": true,
-      "last_verified_at": "2026-08-31",
-      "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
+      "last_verified_at": "2026-09-28",
+      "last_verification_note": "サイト実体は確認。なんJアンテナ1-10ページでは今回未検出のため、前回掲載確認済みサイトとして継続"
     },
     {
       "name": "MLB NEWS@なんJ",
@@ -57,7 +57,7 @@
       "antenna_label": "MLB NEWS",
       "source_type": "antenna",
       "enabled": true,
-      "last_verified_at": "2026-08-31",
+      "last_verified_at": "2026-09-28",
       "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
     },
     {
@@ -69,7 +69,7 @@
       "antenna_label": "竜速",
       "source_type": "antenna",
       "enabled": true,
-      "last_verified_at": "2026-08-31",
+      "last_verified_at": "2026-09-28",
       "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
     },
     {
@@ -81,7 +81,7 @@
       "antenna_label": "鷹速",
       "source_type": "antenna",
       "enabled": true,
-      "last_verified_at": "2026-08-31",
+      "last_verified_at": "2026-09-28",
       "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
     },
     {
@@ -93,8 +93,8 @@
       "antenna_label": "ポリー速報",
       "source_type": "antenna",
       "enabled": true,
-      "last_verified_at": "2026-08-31",
-      "last_verification_note": "なんJアンテナ1-10ページで掲載を確認"
+      "last_verified_at": "2026-09-28",
+      "last_verification_note": "サイト実体は確認。なんJアンテナ1-10ページでは今回未検出のため、前回掲載確認済みサイトとして継続"
     },
     {
       "name": "なんJ PRIDE",
@@ -105,7 +105,7 @@
       "antenna_label": null,
       "source_type": "manual",
       "enabled": true,
-      "last_verified_at": "2026-08-31",
+      "last_verified_at": "2026-09-28",
       "last_verification_note": "手動追加対象。サイト実体を確認"
     }
   ]
